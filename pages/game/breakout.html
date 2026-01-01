@@ -1,0 +1,41 @@
+<style>
+#game {
+    float:left;
+    background-color:white;
+    margin: auto;
+    width: 640px;
+    height: 480px;
+    position: relative;
+    display: block;
+    border: 2px solid black;
+}
+
+#help_text {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#game_controls {
+    text-align: center;
+}
+</style>
+This was my first JavaScript project. It started from a <a href='https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript'>tutorial on MDN</a> and I expanded it to add powerups. I also made the ball bounce in a less predictable way, so the game is more interesting to play.
+
+<script type="module" src="/js/breakout-v1.js"></script>
+<div id="game"></div>
+
+<div id="help_text">
+Powerup Legend:<br>
+    <span style="background:#008000;">grow paddle</span><br>
+    <span style="background:#BA0707;">shrink paddle</span><br>
+    <span style="background:#FFA500; color: #333;">bouncier ball</span><br>
+    <span style="background:#800080;">less bouncy</span><br>
+    <span style="background:#3E3E3E; color: #eee;">multi-ball</span>
+</div>
+
+<div id="game_controls">
+    <div id="pause_button">&#9612;&#9612; PAUSE GAME</div>
+    <small>
+        <a href="https://github.com/tassaron2/breakout">source code on github</a>
+    </small>
+</div>

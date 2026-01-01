@@ -1,0 +1,24 @@
+{
+    "general": {
+        "title": "tassaron dot com",
+        "theme": "brianna",
+        "logo": "/img/muffin64.png",
+        "logo-alt": "muffin wearing a crown",
+        "footer": "<a href=\"https://gts.tassaron.com/@brianna\" rel=\"me\">follow my blog</a><br><br>🏳️‍⚧️",
+        "favicon": "/img/muffin.svg",
+        "route-names": {
+            "game": "Arcade",
+            "/about": "About Me",
+            "game/index": "My Games",
+            "game/breakout": "🎮 Breakout",
+            "game/jezzball": "🎮 Jezzball",
+            "game/pipe-puzzle": "🎮 Pipe Puzzle"
+        }
+    },
+    "folders": {
+        "game": {
+            "sort-mode": "alphabetize",
+            "embeddable": true
+        }
+    }
+}
