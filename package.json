@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"nodemon\" \"cd dist && python -m http.server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tassaron/tassaron-dot-com.git"
+  },
+  "author": "tassaron",
+  "homepage": "https://tassaron.com",
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": ""
+  },
+  "nodemonConfig": {
+    "exec": "./env/bin/mash -i pages -o dist --clean",
+    "watch": [
+      "pages"
+    ],
+    "ext": "md, html"
+  }
+}
