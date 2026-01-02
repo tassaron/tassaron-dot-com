@@ -12,7 +12,8 @@
             "game/index": "My Games",
             "game/breakout": "🎮 Breakout",
             "game/jezzball": "🎮 Jezzball",
-            "game/pipe-puzzle": "🎮 Pipe Puzzle"
+            "game/pipe-puzzle": "🎮 Pipe Puzzle",
+            "game/rodents-revenge": "🎮 Rodent's Revenge"
         }
     },
     "folders": {

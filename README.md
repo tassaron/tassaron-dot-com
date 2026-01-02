@@ -18,3 +18,4 @@ It gets transformed into HTML by **[muffin-mash](https://github.com/tassaron/muf
 - `jezzball-v1.js`: [jezzball-transgender](https://github.com/tassaron/jezzball-transgender)
 - `breakout-v1.js` - [breakout](https://github.com/tassaron/breakout)
 - `pipe-puzzle-v1.js` - [pipe-puzzle](https://github.com/tassaron/pipe-puzzle) + [muffin-game](https://github.com/tassaron/muffin-game)
+- `rodents-revenge-v1.js`: [rodents-revenge](https://github.com/tassaron/rodents-revenge)
