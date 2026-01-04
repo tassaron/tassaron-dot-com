@@ -2,10 +2,11 @@
     "general": {
         "title": "tassaron dot com",
         "theme": "brianna",
-        "logo": "/img/muffin64.png",
+        "logo": "/img/muffin.svg",
         "logo-alt": "muffin wearing a crown",
-        "footer": "<a href=\"https://gts.tassaron.com/@brianna\" rel=\"me\">follow my blog</a><br><br>🏳️‍⚧️",
+        "footer": "<a href=\"https://gts.tassaron.com/@brianna\" rel=\"me\"><img alt=\"muffin wearing a crown\" style=\"width: 16px; height: 16px\" src=\"/img/muffin.svg\"></a>",
         "favicon": "/img/muffin.svg",
+        "pretty-urls": true,
         "route-names": {
             "game": "Arcade",
             "/about": "About Me",
@@ -13,7 +14,8 @@
             "game/breakout": "🎮 Breakout",
             "game/jezzball": "🎮 Jezzball",
             "game/pipe-puzzle": "🎮 Pipe Puzzle",
-            "game/rodents-revenge": "🎮 Rodent's Revenge"
+            "game/rodents-revenge": "🎮 Rodent's Revenge",
+            "game/speed-limit": "🎮 Speed Limit"
         }
     },
     "folders": {

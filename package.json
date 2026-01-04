@@ -11,13 +11,13 @@
   "homepage": "https://tassaron.com",
   "dependencies": {
     "concurrently": "^9.2.1",
-    "nodemon": ""
+    "nodemon": "^3.1.11"
   },
   "nodemonConfig": {
     "exec": "./env/bin/mash -i pages -o dist --clean",
     "watch": [
       "pages"
     ],
-    "ext": "md, html"
+    "ext": "md, html, js, json, png, svg, jpg, webp"
   }
 }
