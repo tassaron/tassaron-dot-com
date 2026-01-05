@@ -12,13 +12,25 @@
 #game_controls {
     text-align: center;
 }
+
+#pause_button {
+    padding: 1rem 2rem;
+    border-radius: 0;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+#pause_button:focus-within, #pause_button:hover {
+    box-shadow: 0 0.375rem 0.5rem rgba(78, 49, 94, 0.4);
+    outline: rgba(78, 49, 94, 0.4) solid 0.375rem;
+}
 </style>
 <script type="module" src="/js/rodents-revenge-v1.js"></script>
 <div id="help_text">A remake of the <a href="https://en.wikipedia.org/wiki/Rodent's_Revenge">classic Microsoft game</a>. Use crates to block in the cats and turn them into cheese!</div>
 <br>
 <div id="game"></div>
 <div id="game_controls">
-<div id="pause_button">&#9612;&#9612; PAUSE GAME</div>
+<button type="button" id="pause_button">&#9612;&#9612; Pause</button>
 
 [source code on github](https://github.com/tassaron/rodents-revenge)
 
