@@ -19,3 +19,5 @@ It gets transformed into HTML by **[muffin-mash](https://github.com/tassaron/muf
 - `breakout-v1.js` - [breakout](https://github.com/tassaron/breakout)
 - `pipe-puzzle-v1.js` - [pipe-puzzle](https://github.com/tassaron/pipe-puzzle) + [muffin-game](https://github.com/tassaron/muffin-game)
 - `rodents-revenge-v1.js`: [rodents-revenge](https://github.com/tassaron/rodents-revenge)
+- `speed-limit-v1.js`: [speed-limit](https://github.com/tassaron/speed-limit)
+- `funtimes-v1.js`: [bat2web](https://github.com/tassaron/bat2web)

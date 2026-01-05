@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "concurrently \"nodemon\" \"cd dist && python -m http.server\""
+    "start": "mkdir -p dist && concurrently \"nodemon\" \"cd dist && python -m http.server\""
   },
   "repository": {
     "type": "git",

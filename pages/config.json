@@ -15,7 +15,8 @@
             "game/jezzball": "🎮 Jezzball",
             "game/pipe-puzzle": "🎮 Pipe Puzzle",
             "game/rodents-revenge": "🎮 Rodent's Revenge",
-            "game/speed-limit": "🎮 Speed Limit"
+            "game/speed-limit": "🎮 Speed Limit",
+            "game/funtimes": "🖥️ <code>funtimes.bat</code>"
         }
     },
     "folders": {
