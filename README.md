@@ -10,6 +10,7 @@ It gets transformed into HTML by **[muffin-mash](https://github.com/tassaron/muf
 - run `./env/bin/pip install git+https://github.com/tassaron/muffin-mash` to install mash
 - run `npm i` to install `nodemon` and `concurrently`
 - run `npm start`
+- **(optional, to test Funtimes)** run `bat2web.py` to run Flask app that serves `/game/funtimes/api` (must disable CORS and modify API url in `funtimes-v1.js` file; it's tedious)
 
 ## bundles
 
@@ -21,3 +22,7 @@ It gets transformed into HTML by **[muffin-mash](https://github.com/tassaron/muf
 - `rodents-revenge-v1.js`: [rodents-revenge](https://github.com/tassaron/rodents-revenge)
 - `speed-limit-v1.js`: [speed-limit](https://github.com/tassaron/speed-limit)
 - `funtimes-v1.js`: [bat2web](https://github.com/tassaron/bat2web)
+
+`/pages/download` contains more of such files:
+
+- `food-prefs-v1.0-alpha.js` - [openrct2-food-prefs-plugin](https://github.com/tassaron/openrct2-food-prefs-plugin)

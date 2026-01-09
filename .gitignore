@@ -5,3 +5,5 @@ dist/
 __pycache__/
 *.code-workspace
 node_modules/
+package-lock.json
+*.tar.gz
